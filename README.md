@@ -16,7 +16,7 @@ The code review examines the original artifacts selected for this portfolio, ide
 
 ## Software Engineering and Design
 
-\### Travlr Getaways - Role-Based Access Control
+### Travlr Getaways - Role-Based Access Control
 
 
 
@@ -24,7 +24,7 @@ The Travlr Getaways full-stack application was enhanced by adding role-based acc
 
 
 
-\[View Enhancement One: Software Engineering and Design](software-engineering/)
+[View Enhancement One: Software Engineering and Design](software-engineering/)
 
 ## Algorithms and Data Structures
 
