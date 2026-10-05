@@ -1,8 +1,8 @@
-\# Enhancement One: Software Engineering and Design
+# Enhancement One: Software Engineering and Design
 
 
 
-\## Travlr Getaways
+## Travlr Getaways
 
 
 
@@ -14,7 +14,7 @@ The original application included JSON Web Token (JWT) authentication that allow
 
 
 
-\## Enhancement
+## Enhancement
 
 
 
@@ -34,19 +34,19 @@ Together, these changes create a clearer separation between authentication, whic
 
 
 
-\## Original and Enhanced Artifacts
+## Original and Enhanced Artifacts
 
 
 
-\[View the Original Travlr Getaways Source Code](original/)
+[View the Original Travlr Getaways Source Code](original/)
 
 
 
-\[View the Enhanced Travlr Getaways Source Code](enhanced/)
+[View the Enhanced Travlr Getaways Source Code](enhanced/)
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -58,7 +58,7 @@ The enhancement also demonstrates secure software design by enforcing authorizat
 
 
 
-\## Testing and Validation
+## Testing and Validation
 
 
 
@@ -70,7 +70,7 @@ The Angular application was also tested to verify that a normal user could view 
 
 
 
-\## Reflection
+## Reflection
 
 
 
@@ -82,5 +82,5 @@ The enhancement improved the original artifact by replacing a single-level login
 
 
 
-\[Return to the ePortfolio Home Page](../)
+[Return to the ePortfolio Home Page](../)
 
