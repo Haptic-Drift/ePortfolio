@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Travlr Getaways</h1>
+
+  <p *ngIf="authService.isAdmin()">
+    <a routerLink="/add-trip">Add a New Trip</a>
+  </p>
+
+  <div *ngFor="let trip of trips">
+    <app-trip-card [trip]="trip"></app-trip-card>
+  </div>
+</div>

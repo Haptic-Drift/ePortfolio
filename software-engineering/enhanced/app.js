@@ -1,0 +1,63 @@
+require('dotenv').config();  // Load environment variables from .env file
+const passport = require('passport');  // Import Passport for authentication
+
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var hbs = require('hbs');
+
+// Module2 MVC refactor: route files moved into app_server/routes...
+var indexRouter = require('./app_server/routes/index');   
+var usersRouter = require('./app_server/routes/users');   
+
+require('./app_api/models/db');  // Module5 refactor: db module moved to app_api/models
+require('./app_api/config/passport');
+
+
+var apiRouter = require('./app_api/routes/index');
+
+var app = express();
+
+// view engine setup
+// Module2 MVC refactor: views moved into app_server/views...
+app.set('views', path.join(__dirname, 'app_server', 'views'));
+app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/app_server/views/partials');   // register partials for handlebars
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(passport.initialize());  // Initialize Passport middleware
+
+app.use(function(req, res, next) {   
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  next();
+});
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use('/api', apiRouter);   // Module5 refactor: API routes moved to app_api/routes... and registered under /api path
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+module.exports = app;

@@ -1,0 +1,12 @@
+<div class="trip-card">
+  <img [src]="'assets/images/' + trip.image" [alt]="trip.name" class="trip-image">
+
+  <h2>{{ trip.name }}</h2>
+  <p>{{ trip.description }}</p>
+  <p>{{ trip.length }} only {{ trip.perPerson }}</p>
+  <p>{{ trip.resort }}</p>
+
+  <p *ngIf="authService.isLoggedIn()">
+    <a [routerLink]="['/edit-trip', trip.code]">Edit Trip</a>
+  </p>
+</div>

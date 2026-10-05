@@ -1,0 +1,32 @@
+[
+  {
+    "code": "GALE",
+    "name": "Gale Reef",
+    "length": "4 nights / 5 days",
+    "start": "15 Apr",
+    "resort": "Emerald Bay, 3 stars",
+    "perPerson": "799",
+    "image": "reef1.jpg",
+    "description": "Gale Reef Sed at augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis."
+  },
+  {
+    "code": "DAWS",
+    "name": "Dawson’s Reef",
+    "length": "4 nights / 5 days",
+    "start": "23 Apr",
+    "resort": "Blue Lagoon, 4 stars",
+    "perPerson": "1199",
+    "image": "reef2.jpg",
+    "description": "Dawson’s Reef Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc id rutrum felis. Etiam sed libero mauris, sed aliquet nisl."
+  },
+  {
+    "code": "CLAR",
+    "name": "Claire’s Reef",
+    "length": "4 nights / 5 days",
+    "start": "30 Apr",
+    "resort": "Coral Sands, 5 stars",
+    "perPerson": "1999",
+    "image": "reef3.jpg",
+    "description": "Claire’s Reef Donec porttitor tincidunt imperdiet. Cras vulputate, sapien eu tincidunt iaculis, massa nisl condimentum nibh, quis semper ipsum arcu ut massa. Nunc feugiat mi a tellus consequat imperdiet."
+  }
+]
