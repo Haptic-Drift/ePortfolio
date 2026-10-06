@@ -4,31 +4,31 @@ This directory contains the REST API source code for the enhanced Travlr Getaway
 
 ## RBAC Enhancement
 
-- [Authorization Middleware](authorization.js)
-- [Enhanced User Model](models/user.js)
-- [Authentication Routes](routes/auth.js)
-- [API Routes](routes/index.js)
+- [Authorization Middleware](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/authorization.js)
+- [Enhanced User Model](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/models/user.js)
+- [Authentication Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/routes/auth.js)
+- [API Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/routes/index.js)
 
 The authorization middleware verifies administrative permissions before allowing access to protected trip-management operations. The enhanced user model supports user roles, allowing the application to distinguish between standard users and administrators.
 
 ## API Source Code
 
 ### Configuration
-- [Passport Authentication Configuration](config/passport.js)
+- [Passport Authentication Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/config/passport.js)
 
 ### Controllers
-- [Authentication Controller](controllers/authentication.js)
-- [Trip Controller](controllers/trips.js)
+- [Authentication Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/controllers/authentication.js)
+- [Trip Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/controllers/trips.js)
 
 ### Models
-- [Database Configuration](models/db.js)
-- [Database Seed](models/seed.js)
-- [Travlr Model](models/travlr.js)
-- [User Model](models/user.js)
+- [Database Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/models/db.js)
+- [Database Seed](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/models/seed.js)
+- [Travlr Model](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/models/travlr.js)
+- [User Model](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/models/user.js)
 
 ### Routes
-- [Authentication Routes](routes/auth.js)
-- [API Routes](routes/index.js)
+- [Authentication Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/routes/auth.js)
+- [API Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app_api/routes/index.js)
 
 ## About This Version
 

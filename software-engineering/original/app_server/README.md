@@ -5,22 +5,22 @@ This directory contains the server-side application source code for the original
 ## Server Application Source Code
 
 ### Controllers
-- [Main Controller](controllers/main.js)
-- [Travel Controller](controllers/travel.js)
+- [Main Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/controllers/main.js)
+- [Travel Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/controllers/travel.js)
 
 ### Routes
-- [Main Routes](routes/index.js)
-- [User Routes](routes/users.js)
+- [Main Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/routes/index.js)
+- [User Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/routes/users.js)
 
 ### Views
-- [Error View](views/error.hbs)
-- [Home View](views/index.hbs)
-- [Main Layout](views/layout.hbs)
-- [Travel View](views/travel.hbs)
+- [Error View](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/error.hbs)
+- [Home View](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/index.hbs)
+- [Main Layout](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/layout.hbs)
+- [Travel View](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/travel.hbs)
 
 ### View Partials
-- [Header Partial](views/partials/header.hbs)
-- [Footer Partial](views/partials/footer.hbs)
+- [Header Partial](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/partials/header.hbs)
+- [Footer Partial](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_server/views/partials/footer.hbs)
 
 ## About This Component
 

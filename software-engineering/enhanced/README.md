@@ -7,8 +7,8 @@ This directory contains the enhanced Travlr Getaways application completed for t
 - [Angular Administrative Application](app_admin/)
 - [REST API](app_api/)
 - [Server Application](app_server/)
-- [Application Entry Point](app.js)
-- [Package Configuration](package.json)
+- [Application Entry Point](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/app.js)
+- [Package Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/enhanced/package.json)
 
 ## About This Version
 
