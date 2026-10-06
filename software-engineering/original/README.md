@@ -7,8 +7,8 @@ This directory contains the original Travlr Getaways application developed in CS
 - [Angular Administrative Application](app_admin/)
 - [REST API](app_api/)
 - [Server Application](app_server/)
-- [Application Entry Point](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app.js)
-- [Package Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/package.json)
+- [Application Entry Point](app.js)
+- [Package Configuration](package.json)
 
 ## About This Version
 

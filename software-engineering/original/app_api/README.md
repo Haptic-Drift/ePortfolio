@@ -5,21 +5,21 @@ This directory contains the REST API source code for the original Travlr Getaway
 ## API Source Code
 
 ### Configuration
-- [Passport Authentication Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/config/passport.js)
+- [Passport Authentication Configuration](config/passport.js)
 
 ### Controllers
-- [Authentication Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/controllers/authentication.js)
-- [Trip Controller](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/controllers/trips.js)
+- [Authentication Controller](controllers/authentication.js)
+- [Trip Controller](controllers/trips.js)
 
 ### Models
-- [Database Configuration](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/models/db.js)
-- [Database Seed](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/models/seed.js)
-- [Travlr Model](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/models/travlr.js)
-- [User Model](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/models/user.js)
+- [Database Configuration](models/db.js)
+- [Database Seed](models/seed.js)
+- [Travlr Model](models/travlr.js)
+- [User Model](models/user.js)
 
 ### Routes
-- [Authentication Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/routes/auth.js)
-- [API Routes](https://github.com/Haptic-Drift/ePortfolio/blob/main/software-engineering/original/app_api/routes/index.js)
+- [Authentication Routes](routes/auth.js)
+- [API Routes](routes/index.js)
 
 ## About This Version
 
