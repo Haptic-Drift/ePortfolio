@@ -26,9 +26,15 @@ The Travlr Getaways full-stack application was enhanced by adding role-based acc
 
 [View Enhancement One: Software Engineering and Design](software-engineering/)
 
+
 ## Algorithms and Data Structures
 
-*Enhancement Two will be published here.*
+### CourseManager — AVL Tree and Prerequisite Validation
+
+The original CourseManager application was enhanced by replacing its binary search tree with a self-balancing AVL tree and adding course prerequisite validation. These improvements demonstrate the application of algorithms and data structures to improve software efficiency, reliability, and data integrity.
+
+[View Enhancement Two: Algorithms and Data Structures](algorithms-data-structures/)
+
 
 ## Databases
 

@@ -1,0 +1,7 @@
+CS300,Data Structures and Algorithms,CS200
+CS200,Programming Fundamentals
+CS100,Introduction to Programming
+CS400,Software Engineering,CS300
+CS500,Advanced Algorithms,CS300
+CS250,Object-Oriented Programming,CS200
+CS350,Database Systems,CS250
