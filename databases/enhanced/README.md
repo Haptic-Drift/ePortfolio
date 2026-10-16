@@ -27,7 +27,7 @@ The application integrates Python, MongoDB, and an interactive Jupyter-based das
 
 [View Enhanced Jupyter Dashboard](ProjectTwoDashboard_FINAL.ipynb)
 
-[View Environment Configuration Template](.env.example)
+[View Environment Configuration Template](env.example)
 
 ### Technical Skills Demonstrated
 
@@ -39,7 +39,8 @@ The improved configuration and dashboard functionality also demonstrate attentio
 
 The dashboard requires Python, the project dependencies, and access to a configured MongoDB database.
 
-Connection settings must be supplied through environment variables. The `.env.example` file identifies the required configuration fields.
+Connection settings must be supplied through environment variables. 
+The env.example file provides a public configuration template. When setting up the application locally, copy it to a file named .env and supply the appropriate connection settings.
 
 The GitHub Pages ePortfolio provides access to the source code and documentation; it does not host a running instance of the dashboard.
 
