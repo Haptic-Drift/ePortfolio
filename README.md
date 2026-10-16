@@ -36,7 +36,13 @@ The original CourseManager application was enhanced by replacing its binary sear
 [View Enhancement Two: Algorithms and Data Structures](algorithms-data-structures/)
 
 
+
 ## Databases
 
-*Enhancement Three will be published here.*
+### Grazioso Salvare — Search-and-Rescue Dashboard
+
+The original Grazioso Salvare application was enhanced by improving MongoDB connection configuration, database integration, and interactive dashboard functionality. The enhanced application includes rescue-type filtering, data visualization, and environment-based configuration to improve usability, maintainability, and security.
+
+[View Enhancement Three: Databases](databases/)
+
 
