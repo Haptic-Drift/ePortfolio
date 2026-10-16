@@ -44,6 +44,10 @@ Together, these changes create a clearer separation between authentication, whic
 
 [View the Enhanced Travlr Getaways Source Code](enhanced/)
 
+### Enhancement One Narrative
+
+[Download Enhancement One Narrative (Word Document)](MilestoneTwoNarrative_FINAL.docx)
+
 
 
 ## Skills Demonstrated

@@ -7,3 +7,7 @@ The code review also provides an overview of the code before the enhancements we
 ## Code Review Video
 
 [Watch the CS 499 Capstone Code Review on YouTube](https://youtu.be/KEdzIvXnXhQ)
+
+---
+
+[← Back to ePortfolio Home](../)
